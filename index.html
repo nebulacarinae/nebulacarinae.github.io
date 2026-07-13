@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karena Jasso — QA Engineer</title>
+<style>
+  :root {
+    --ink: #1d1d1f;
+    --sub: #4b4f56;
+    --accent: #0a5fa8;
+    --rule: #d9dce1;
+    --bg: #ffffff;
+    --bg-soft: #f6f7f9;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg-soft);
+    line-height: 1.55;
+  }
+  .page {
+    max-width: 800px;
+    margin: 40px auto;
+    background: var(--bg);
+    padding: 56px 60px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    border-radius: 6px;
+  }
+  header { text-align: center; margin-bottom: 28px; }
+  h1 {
+    margin: 0 0 4px;
+    font-size: 2.1rem;
+    letter-spacing: 0.5px;
+  }
+  .title {
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+  }
+  .contact {
+    color: var(--sub);
+    font-size: 0.92rem;
+  }
+  .contact a { color: var(--sub); text-decoration: none; }
+  .contact a:hover { color: var(--accent); text-decoration: underline; }
+  .contact span.dot { margin: 0 8px; color: var(--rule); }
+
+  section { margin-top: 26px; }
+  h2 {
+    font-size: 0.82rem;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: var(--accent);
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 6px;
+    margin-bottom: 14px;
+  }
+  p.summary { color: var(--ink); font-size: 0.98rem; }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .skills span {
+    background: var(--bg-soft);
+    border: 1px solid var(--rule);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    color: var(--sub);
+  }
+
+  .certs { font-size: 0.95rem; color: var(--sub); }
+
+  .job { margin-bottom: 20px; }
+  .job:last-child { margin-bottom: 0; }
+  .job-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+  }
+  .job-title { font-weight: 600; font-size: 1rem; }
+  .job-company { font-style: italic; color: var(--sub); font-weight: 400; }
+  .job-dates {
+    font-size: 0.85rem;
+    color: var(--sub);
+    white-space: nowrap;
+  }
+  ul.bullets {
+    margin: 8px 0 0;
+    padding-left: 20px;
+  }
+  ul.bullets li {
+    margin-bottom: 5px;
+    font-size: 0.95rem;
+  }
+
+  .edu-head {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+  }
+  .edu-degree { font-weight: 600; }
+  .edu-school { font-style: italic; color: var(--sub); }
+  .edu-year { color: var(--sub); font-size: 0.9rem; }
+  .edu-detail { font-size: 0.9rem; color: var(--sub); margin-top: 4px; font-style: italic; }
+
+  footer {
+    text-align: center;
+    color: var(--sub);
+    font-size: 0.8rem;
+    margin-top: 36px;
+  }
+
+  @media (max-width: 640px) {
+    .page { padding: 32px 22px; margin: 0; border-radius: 0; }
+    .job-head, .edu-head { flex-direction: column; }
+  }
+
+  @media print {
+    body { background: #fff; }
+    .page { box-shadow: none; margin: 0; padding: 20px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>Karena Jasso</h1>
+    <div class="title">QA Engineer</div>
+    <div class="contact">
+      Austin, TX <span class="dot">·</span>
+      (979) 739-8100 <span class="dot">·</span>
+      <a href="mailto:karenajasso@gmail.com">karenajasso@gmail.com</a> <span class="dot">·</span>
+      <a href="https://linkedin.com/in/karenajasso" target="_blank" rel="noopener">linkedin.com/in/karenajasso</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Summary</h2>
+    <p class="summary">QA professional with 17+ years at Apple bringing hands-on manual testing experience, deep root-cause analysis skills, and a track record of building product knowledge quickly. Recently served as a Software QA Tester on tvOS and Apple Intelligence, designing test cases, authoring test plans, and managing defects within a structured testing framework. Known for spotting edge cases specs don't call out and writing bug reports precise enough for engineers to act on without follow-up. Comfortable with ambiguity, proactive in communication, and working toward broader QA ownership — including E2E automation.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Manual &amp; Regression Testing</span>
+      <span>Test Plan Design &amp; Execution</span>
+      <span>Defect Lifecycle Management</span>
+      <span>Bug Tracking Systems</span>
+      <span>Root Cause Analysis</span>
+      <span>STLC</span>
+      <span>Agile / Scrum</span>
+      <span>Cross-Functional Collaboration</span>
+      <span>Technical Documentation</span>
+      <span>Python (automation scripting)</span>
+      <span>Bash</span>
+      <span>Git / GitHub</span>
+      <span>macOS</span>
+      <span>iOS</span>
+      <span>tvOS</span>
+      <span>Linux</span>
+      <span>Java</span>
+      <span>C++</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <div class="certs">Apple Certified iOS Technician (ACiT) · Apple Certified Mac Technician (ACMT)</div>
+  </section>
+
+  <section>
+    <h2>Work Experience</h2>
+
+    <div class="job">
+      <div class="job-head">
+        <div><span class="job-title">Apple Genius – Hardware &amp; Software Diagnostics</span> <span class="job-company">| Apple, Inc.</span></div>
+        <div class="job-dates">Nov 2025 – Present</div>
+      </div>
+      <ul class="bullets">
+        <li>Diagnose and resolve complex hardware and software defects across the full Apple product line, applying structured root cause analysis and systematic troubleshooting — tracing failures across interconnected components to their source.</li>
+        <li>Document recurring failure patterns with detailed reproduction steps for engineering teams, translating technical issues into clear, actionable write-ups.</li>
+        <li>Collaborate with cross-functional teams on emerging issues, improving diagnostic accuracy and reducing resolution times.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head">
+        <div><span class="job-title">Software QA Tester – tvOS</span> <span class="job-company">| Apple, Inc. (Remote)</span></div>
+        <div class="job-dates">Jun 2025 – Nov 2025</div>
+      </div>
+      <ul class="bullets">
+        <li>Created, executed, and maintained manual and regression test cases within a structured testing framework, validating tvOS and Apple Intelligence features against expected behavior and documenting results clearly as the product evolved.</li>
+        <li>Authored test plans and test case documentation for new feature releases, proactively identifying edge cases and failure scenarios not explicitly called out in specs.</li>
+        <li>Tracked defects end-to-end in internal bug tracking systems — reproduction steps, expected vs. actual results, severity, and priority — giving engineers what they needed to act without follow-up questions.</li>
+        <li>Partnered with engineering and product to understand what was shipping and what needed testing, helping reduce defect escape rates.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head">
+        <div><span class="job-title">Apple Genius – Hardware &amp; Software Diagnostics</span> <span class="job-company">| Apple, Inc.</span></div>
+        <div class="job-dates">Jun 2012 – Jun 2025</div>
+      </div>
+      <ul class="bullets">
+        <li>Diagnosed and resolved complex hardware and software defects across 13 years, applying systematic troubleshooting methodologies consistent with QA best practices.</li>
+        <li>Served as an internal QA resource for new retail service tooling, participating in multiple pilot programs and delivering structured feedback that shaped successful rollouts.</li>
+        <li>Mentored and trained team members on diagnostic processes and quality standards.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head">
+        <div><span class="job-title">Data Analyst</span> <span class="job-company">| Apple, Inc. (Remote)</span></div>
+        <div class="job-dates">Jun 2021 – Oct 2021</div>
+      </div>
+      <ul class="bullets">
+        <li>Validated and processed high-volume order data for accuracy and compliance, applying data-quality principles aligned with QA methodology.</li>
+        <li>Authored a Python script to automate data-cleaning workflows, increasing processing efficiency by 20% and reducing manual error rates.</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="edu-head">
+      <div><span class="edu-degree">Bachelor of Arts, Computer Science</span> <span class="edu-school">| Texas State University</span></div>
+      <div class="edu-year">2016</div>
+    </div>
+    <div class="edu-detail">Relevant coursework: Software Engineering, Database Systems, Algorithms Analysis</div>
+  </section>
+
+  <footer>Last updated July 2026</footer>
+
+</div>
+</body>
+</html>
